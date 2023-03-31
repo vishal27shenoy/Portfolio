@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+.navbar_container {
+    height: 60px;
+    background-color: #001E3C;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+}
+.right_navbar_container {
+    margin-left: auto;
+    border: white;
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 30px;
+}
+.right_navbar_container > .one,
+.right_navbar_container > .two,
+.right_navbar_container > .three {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.left_navbar_container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.left_navbar_container::after {
+    content: " Shenoy";
+    color: orange;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+.body_container {
+    display: flex;
+}
+.body_left_container {
+    height: 600px;
+    width: 800px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    margin-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+.body_right_container {
+    height: 600px;
+    width: 800px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    padding-left: 100px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.body_left_container {
+    font-size: 50px;
+    color: black;
+}
+.div_inside_body_container {
+    color: black;
+}
+.div_inside_body_container::before {
+    content: "This is";
+    color: black;
+}
+.div_inside_body_container::after {
+    content: " Vishal Shenoy B";
+    color: orange;
+}
+#demo {
+    color: orange;
+
+}
+#demoone {
+    transform-origin: 4s;
+    margin-top: 10px;
+    color: blue;
+}
+.skill_container {
+    height: 500px;
+    background-color: #001E3C;
+}
+.skill_heading {
+    width: fit-content;
+    height: fit-content;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-style: italic;
+}
+.skill_img_container {
+    height: 200px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.skill_img_container > img,
+.skill_img_containertwo > img {
+    width: 200px;
+    border-radius: 10px;
+}
+.skill_img_containertwo {
+    width: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 50px;
+}
+.skill_img_container > img:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.skills_in_text_left {
+    height: 500px;
+    font-size: 20px;
+    color: purple;
+    width: 500px;
+}
+.skills_in_text_right {
+    height: 500px;
+    font-size: 20px;
+    color: purple;
+    width: 500px;
+}
+ol,
+ul {
+    color: orange;
+    font-size: 50px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+li {
+    margin-left: 80px;
+    font-size: 30px;
+}
+.skill_in_text_container {
+    box-sizing: border-box;
+    background-color: #001E3C;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.some_other_skills {
+    height: 300px;
+    color: #001E3C;
+}
+h1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: orange;
+}
+.some_other_skills > ul > li {
+    padding-top: 0;
+    color: #001E3C;
+    list-style: circle;
+}
+.PROGRAMING_UL {
+    padding-top: 0;
+    color: #001E3C;
+    list-style: circle;
+}
+.skill_btn {
+    color: orange;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #001e3cde;
+    color: orange;
+    font-weight: 600;
+    margin-left: 20px;
+    border: none;
+    font-size: 17px;
+}
+li:hover {
+    font-style: italic;
+    color: aquamarine;
+}
